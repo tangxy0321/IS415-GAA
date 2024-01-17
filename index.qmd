@@ -1,10 +1,9 @@
 ---
-title: "IS415-GAA"
-listing: default
+title: "Geospatial Journey 2024 Jan - Apr"
+listing: 
+  type: grid
+  exclude: 
+    id: "remove*"
 ---
 
-Welcome to **IS415 Geospatial Analysis and Application**
-
-This is the course website of IS415 I study this term.
-
-You will find my work published here.
+This is for IS415 Geospatial Analysis and Applications. You will see all my work here.

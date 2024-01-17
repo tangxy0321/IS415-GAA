@@ -1,5 +1,6 @@
 ---
 title: "Hands-on Exercise 01: Geospatial Data Wrangling with R"
+id: "remove 1"
 ---
 
 *Do note to download all files from the given data sources stated.*
@@ -20,11 +21,11 @@ pacman::p_load(sf,tidyverse)
 Importing the geospatial data files using st_read() *Full file path works*
 
 ```{r}
-mpsz <- st_read("/Users/tangtang/Desktop/IS415 Geospatial Analytics and Applications/practice/is415-gaa/data/geospatial/MP14_SUBZONE_WEB_PL.shp")
+mpsz <- st_read("/Users/tangtang/Desktop/IS415 Geospatial Analytics and Applications/practice/IS415-GAA/data/geospatial/MP14_SUBZONE_WEB_PL.shp")
 
-cycling_path <- st_read("/Users/tangtang/Desktop/IS415 Geospatial Analytics and Applications/practice/is415-gaa/data/geospatial/CyclingPathGazette.shp")
+cycling_path <- st_read("/Users/tangtang/Desktop/IS415 Geospatial Analytics and Applications/practice/IS415-GAA/data/geospatial/CyclingPathGazette.shp")
 
-preschool <- st_read("/Users/tangtang/Desktop/IS415 Geospatial Analytics and Applications/practice/is415-gaa/data/geospatial/PreSchoolsLocation.kml")
+preschool <- st_read("/Users/tangtang/Desktop/IS415 Geospatial Analytics and Applications/practice/IS415-GAA/data/geospatial/PreSchoolsLocation.kml")
 ```
 
 # Checking Content of our dataset
