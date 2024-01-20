@@ -1,5 +1,19 @@
 ---
-title: "Take-home Exercise 1: "
+title: "Take-home Exercise 1: Application of Spatial Point Pattern Analysis on Grab Hailing Service in Singapore"
+author: "Tang Xin Yi"
+date: "17 Jan 2024"
 ---
 
+# 1 Problem context
 
+We are looking into discovering insights relevant to the geographical and spatial distribution of Grab hailing service locations in Singapore.
+
+We
+
+# 2 Data
+
+## Background of the datasets used
+
+The following datasets are used in this analysis exercise.
+
+## Data extraction

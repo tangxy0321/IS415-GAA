@@ -29,6 +29,7 @@ format:
     theme: cyborg
     css: styles.css
     toc: true
+    toc-location: left
 
-editor: visual
+editor: source
 
