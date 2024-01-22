@@ -1,0 +1,13 @@
+---
+title: "In-class Exercise 3: Network Constrained Kernel Density Estimation (NKDE)"
+format: 
+  html: 
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-line-numbers: true
+execute: 
+  eval: true
+  echo: true
+---
+

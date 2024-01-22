@@ -53,7 +53,7 @@ mpsz_sf <- st_read(dsn = "../../data/geospatial/",
                      layer = "MP14_SUBZONE_WEB_PL")
 childcare_sf <- st_read("../../data/geospatial/ChildCareServices.geojson") %>%
   st_transform(crs = 3414)
-sg_sf <- st_read(dsn = "../../data/geospatial", layer="CostalOutline")
+
 ```
 ```{r}
 st_geometry(mpsz_sf)
@@ -63,22 +63,6 @@ st_crs(mpsz_sf)
 ```{r}
 st_geometry(childcare_sf)
 st_crs(childcare_sf)
-```
-
-```{r}
-st_geometry(sg_sf)
-st_crs(sg_sf)
-```
-### Assign right CRS to `mpsz_sf` and `sg_sf`
-
-```{r}
-st_transform(mpsz_sf,
-             crs = 3414)
-```
-
-```{r}
-st_transform(sg_sf,
-             crs = 3414)
 ```
 ### Derive `CostalLine` layer from 1st dataset
 
@@ -93,9 +77,20 @@ For this exercise, an outline of each region is expected.
 
 ```{r}
 coastalline <- st_union(mpsz_sf)
+sg_sf <- coastalline
 plot(coastalline)
 st_geometry(coastalline)
 # st_write(coastalline, "../../data/geospatial/CostalLine.shp")
+```
+
+```{r}
+st_geometry(sg_sf)
+st_crs(sg_sf)
+```
+
+```{r}
+st_transform(sg_sf,
+             crs = 3414)
 ```
 
 ### Prepare map
