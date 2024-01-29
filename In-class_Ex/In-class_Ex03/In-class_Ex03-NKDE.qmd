@@ -6,9 +6,11 @@ format:
     code-summary: "Show the code"
     code-overflow: wrap
     code-line-numbers: true
+    code-copy: hover
 execute: 
   eval: true
   echo: true
+  freeze: auto
 ---
 
 This exercise is obtained from [Chapter 7](https://r4gdsa.netlify.app/chap07.html).

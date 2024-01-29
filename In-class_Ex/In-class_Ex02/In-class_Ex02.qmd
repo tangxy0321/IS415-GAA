@@ -4,11 +4,13 @@ format:
   html: 
     code-fold: true
     code-summary: "Show the code"
-    code-copy: hover
+    code-overflow: wrap
     code-line-numbers: true
+    code-copy: hover
 execute: 
   eval: true
   echo: true
+  freeze: auto
 ---
 
 # 1.1 Packages included

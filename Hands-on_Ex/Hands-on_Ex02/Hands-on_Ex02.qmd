@@ -1,5 +1,16 @@
 ---
 title: "Hands-on Exercise 2: Choropleth Mapping with R"
+format: 
+  html: 
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-line-numbers: true
+    code-copy: hover
+execute: 
+  eval: true
+  echo: true
+  freeze: auto
 ---
 
 # Getting Started
